@@ -7,7 +7,7 @@
   <title>Portofolio Akmal</title>
 
   <!-- Verifikasi Google Search Console -->
-  <meta name="google-site-verification" content="google0ef4e9e3bb719374" />
+  <meta name="google-site-verification" content="google0ef4e9e3bb719374.html" />
 
   <style>
     * {
