@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portofolio Akmal</title>
+
+  <!-- Verifikasi Google Search Console -->
+  <meta name="google-site-verification" content="google0ef4e9e3bb719374" />
+
   <style>
     * {
       box-sizing: border-box;
