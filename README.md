@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portofolio Akmal</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       font-family: Arial, sans-serif;
       background: #f2f2f2;
@@ -22,14 +26,10 @@
     }
 
     .container {
-      padding: 30px;
-      max-width: 900px;
+      padding: 30px 20px;
+      max-width: 1000px;
       margin: auto;
       animation: fadeIn 1s ease-in-out;
-    }
-
-    .section {
-      margin-bottom: 40px;
     }
 
     h2 {
@@ -38,10 +38,8 @@
 
     .projects img {
       width: 100%;
-      max-width: 100%;
       border-radius: 8px;
-      margin-top: 10px;
-      margin-bottom: 10px;
+      margin: 10px 0;
       transition: transform 0.3s;
     }
 
@@ -81,7 +79,6 @@
       margin-top: 10px;
       border: 1px solid #ccc;
       border-radius: 4px;
-      box-sizing: border-box;
     }
 
     .contact-form button {
@@ -102,10 +99,8 @@
       background: #333;
       color: #fff;
       text-align: center;
-      padding: 10px;
-      position: relative;
-      width: 100%;
-      bottom: 0;
+      padding: 15px;
+      margin-top: 40px;
     }
 
     @keyframes fadeIn {
@@ -120,9 +115,34 @@
       }
     }
 
-    @media screen and (max-width: 600px) {
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 24px;
+      }
+
+      .container {
+        padding: 20px 10px;
+      }
+
+      .download-cv {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+      }
+
+      .contact-form button {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h2 {
+        font-size: 20px;
+      }
+
       .projects img {
-        max-width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
       }
     }
   </style>
@@ -142,11 +162,12 @@
         tinggi dan pengalaman magang di bidang teknis.</p>
       <a href="CV_Moch_Akmal_Almagribi_ATS.pdf" class="download-cv" download>Download CV</a>
     </div>
+
     <div class="section projects">
       <h2>Proyek / Pengalaman Praktik</h2>
       <div class="project-item">
         <h3>Praktik Konfigurasi & Instalasi Komputer</h3>
-         <img src="foto1.png" alt="Praktik TKJ 1">
+        <img src="foto1.png" alt="Praktik TKJ 1">
         <p>Kegiatan praktik di ruang lab meliputi instalasi sistem operasi, perakitan PC, dan konfigurasi dasar jaringan
           lokal.</p>
       </div>
