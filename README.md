@@ -1,4 +1,6 @@
+<!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -205,51 +207,3 @@
 </body>
 
 </html>
-/* Responsif untuk HP ukuran kecil */
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 22px;
-  }
-
-  header p {
-    font-size: 14px;
-  }
-
-  .container {
-    padding: 15px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  .project-item h3 {
-    font-size: 16px;
-  }
-
-  .project-item p,
-  .about p,
-  .contact p {
-    font-size: 14px;
-  }
-
-  .download-cv {
-    font-size: 14px;
-    padding: 8px 14px;
-  }
-
-  .contact-form input,
-  .contact-form textarea {
-    font-size: 14px;
-  }
-
-  .projects img {
-    width: 100%;
-    height: auto;
-  }
-
-  footer {
-    font-size: 12px;
-    padding: 8px;
-  }
-}
